@@ -26,7 +26,6 @@ jobs:
       uses: actions/checkout@v2
     - name: Check if Markdown is formatted correctly
       uses: avto-dev/markdown-lint@v1
-      fix:
-        description: 'Fix basic Markdown errors'
-        required: true
-        default: 'true'
+      with:
+        args: '.'
+        fix: true
