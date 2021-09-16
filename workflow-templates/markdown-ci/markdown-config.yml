@@ -22,13 +22,13 @@ MD007: true
 MD009: true
 
 # Hard tabs <https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md010>
-MD010: true
+MD010: false
 
 # Reversed link syntax <https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md011>
 MD011: true
 
 # Multiple consecutive blank lines <https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md012>
-MD012: true
+MD012: false
 
 # Line length <https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md013>
 MD013: false
@@ -72,7 +72,7 @@ MD028: false
 
 # Ordered list item prefix <https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md029>
 MD029:
-  style: 'one'
+  style: 'one_or_ordered'
 
 # Spaces after list markers <https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md030>
 MD030: true
@@ -106,7 +106,7 @@ MD038: true
 MD039: true
 
 # Fenced code blocks should have a language specified <https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md040>
-MD040: false
+MD040: true
 
 # First line in file should be a top level heading <https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md041>
 MD041: true
@@ -135,7 +135,7 @@ MD048:
   style: 'backtick'
 
 # Custom rules:
-CHANGELOG-RULE-001: true
-CHANGELOG-RULE-002: true
-CHANGELOG-RULE-003: true
-CHANGELOG-RULE-004: true
+# CHANGELOG-RULE-001: false
+# CHANGELOG-RULE-002: false
+# CHANGELOG-RULE-003: false
+# CHANGELOG-RULE-004: false
