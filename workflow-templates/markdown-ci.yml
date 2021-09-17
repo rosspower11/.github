@@ -1,6 +1,19 @@
 name: Markdown quality control
 
-on: [push]
+on: 
+  push:
+    paths:
+    - '**.md'
+    - '**.markdown'
+    - '**.mdown'
+    - '**.mdwn'
+    - '**.mdx'
+    - '**.mkd'
+    - '**.mkdn'
+    - '**.mkdown'
+    - '**.ronn'
+    - '**.scd'
+    - '**.workbook'
 
 jobs:
   check_links:
