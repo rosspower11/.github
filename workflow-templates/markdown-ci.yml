@@ -25,7 +25,7 @@ jobs:
       - name: Check if Markdown links are valid
         uses: gaurav-nelson/github-action-markdown-link-check@v1
         with: 
-          config-file: './markdown-ci/mlc_config.json'
+          config-file: '.github/workflows/markdown-ci/mlc_config.json'
           folder-path: "."
 
   lint-check:
