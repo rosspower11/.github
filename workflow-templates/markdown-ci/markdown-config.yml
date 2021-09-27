@@ -8,6 +8,7 @@ MD003: true
 
 # Unordered list style <https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md004>
 MD004: true
+  style: 'consistent'
 
 # Inconsistent indentation for list items at the same level <https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md005>
 MD005: true
